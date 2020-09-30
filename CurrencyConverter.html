@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <title>Pretvarač Valuta</title>
+    <script language="JavaScript">
+    <!--
+    function euroConverter(){
+    document.converter.dollar.value = document.converter.euro.value * 1.470
+    document.converter.pound.value = document.converter.euro.value * 0.717
+    document.converter.Kuna.value = document.converter.euro.value * 7.56
+    }
+    function dollarConverter(){
+    document.converter.euro.value = document.converter.dollar.value * 0.680
+    document.converter.pound.value = document.converter.dollar.value * 0.488
+    document.converter.Kuna.value = document.converter.dollar.value * 6.45
+    }
+    function poundConverter(){
+    document.converter.dollar.value = document.converter.pound.value * 2.049
+    document.converter.euro.value = document.converter.pound.value * 1.394
+    document.converter.Kuna.value = document.converter.pound.value * 8.33
+    }
+    function KunaConverter(){
+    document.converter.dollar.value = document.converter.Kuna.value * 0.16
+    document.converter.pound.value = document.converter.Kuna.value * 0.12
+    document.converter.euro.value = document.converter.Kuna.value * 0.13
+    }
+    //-->
+    </script>
+</HEAD>
+<body style= "background-color:black;">
+    
+    <h3 style="color:aqua;text-align:center">Ako se iz inozemstva i želite kupiti karte za utakmice ovdje možete provjeriti cijene za neke valute</h3>
+    <hr>
+    <h3 style="color:aqua;text-align:center">If you are from some other country you can see the price of the tickets here</h3>
+    
+    <h1 style="color:aqua;text-align:center";> Pretvarač Valuta </h1>
+    <form name="converter">
+    <table border="5">
+    <tr>
+    <td style="color:aqua">Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+    </tr>
+    <tr>
+    <td style="color:aqua">US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+    </tr>
+    <tr>
+    <td style="color:aqua">British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+    </tr>
+    <tr>
+    <td style="color:aqua">Kuna: </td><td><input type="text" name="Kuna" onChange="KunaConverter()" /></td>
+    </tr>
+    <tr>
+    <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+    </tr>
+    </table>
+    </form>
+    <p style="color:aqua;">Za povratak na Dinamovu stranicu kliknite na sliku</p>
+    <a href="ime1.html">
+    <img  src="prvaci.jpg" alt="Dinamova stranica" style="vertical-align:middle">
+    </a>
+</body>
