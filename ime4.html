@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body style="background-color:powderblue;">
+
+<h1> Maksimir </h1>
+
+<p> </p>
+<script>
+document.write(" Stadion Maksimir je nogometni stadion u Zagrebu.Smješten je u istočnom dijelu grada, nasuprot parka Maksimira.Službeno je otvoren 5. svibnja 1912. godine. Preuređivan je nekoliko puta. Na stadionu utakmice igraju GNK Dinamo i Hrvatska nogometna reprezentacija.");
+</script>
+
+<hr>
+
+<p>Ako zelite shareati ovu stranicu kliknite na gumb ispod.</p>
+
+<button onclick="myFunction()">Klikni me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.URL;
+  document.getElementById("demo").innerHTML = x;
+}
+
+</script>
+ <hr>
+ <p>Ako vas zanima koliko slika ima na ovoj web stranici kliknite gumb ispod</p>
+
+ <button onclick="myFunction1()">Klikni me</button>
+
+ <p id="demo1"></p>
+
+ <script>
+ function myFunction1() {
+   var x = document.images.length;
+   document.getElementById("demo1").innerHTML = x;
+ }
+ </script>
+<img src="maksimir1.jpg" alt="maksimir1">
+<img src="maksimir2.jpg" alt="maksimir2">
+<img src="maksimir3.jpg" alt="maksimir3">
+<hr>
+<img src="maksimir4.jpg" alt="maksimir4">
+<hr>
+<img src="maksimir5.jpg" alt="maksimir5">
+
+ <hr>
+ <p>Ako vas zanima koliko je skripta bilo koristeno za ovu stranicu kliknite gumb ispod.</p>
+
+<button onclick="myFunction2()">Klikni me</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunction2() {
+  var x = document.scripts.length;
+  document.getElementById("demo2").innerHTML = "Pronasao sam " + x + " skripte.";
+}
+</script>
+<hr>
+<a href="ime1.html">Povratak na stranicu Dinama</a>
+</body>
+</html>
