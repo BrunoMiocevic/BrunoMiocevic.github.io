@@ -51,9 +51,40 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 5px solid blue;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	}
 </style>
 </head>
-<body>
+<body style="background-color:lightblue;">
 
 <ul>
   <li><a href="www.google.com">Google</a></li>
@@ -64,8 +95,12 @@ li.dropdown {
       <a href="https://www.facebook.com/dinamo/" target="_blank">Facebook</a>
       <a href="https://www.youtube.com/channel/UC6vpARgHA0oSqtBgYcVWdHg" target="_blank"">YouTube</a>
       <a href="ime2.html" target="_blank">Saznaj više</a>
+      <a href="ime3.html" target="_blank">Zoran Mamić</a>
+      <a href="CurrencyConverter.html" target="_blank">Pretvarač valuta</a>
+
     </div>
   </li>
+  <li><a href="https://gnkdinamo.hr/hr/Kontakt/">Kontakt</a></li>
 </ul>
 
 <h3>Dinamo Zagreb</h3>
@@ -75,9 +110,12 @@ li.dropdown {
 
 Od osnutka 17. ožujka 1986. godine, na utakmici s Hajdukom u Splitu, bodre Dinamo u velikom broju, kako na domaćim, tako i na gostujućim utakmicama. Tijekom godina, unatoč brojnim incidentima, postali su zaštitni znak kluba zbog svoje vjernosti i fanatičnog navijanja. Na domaćim utakmicama smješteni su na sjevernoj tribini maksimirskog stadiona.           </p>
 
-<img src="Dinamo.jpg" alt="Dinamo Grb" width="200" height="200">
-<img src="maksimir.jpg" alt="Maksimir" width="700" height="400" align="right">
-<img src="BBB.jpg" alt="BBB" width="300" height="300" align="middle">
+<img src="Dinamo.jpg" alt="Dinamo Grb"  align="middle">
+<p align="middle">Grb GNK Dinamo Zagreb-a</p>
+<img src="maksimir.jpg" alt="Maksimir"  align="middle">
+<p align="middle">Stadion Maksimir</p>
+<img src="BBB.jpg" alt="BBB"  align="middle">
+<p align="middle">Maskota BBB-a</p>
 <h3>Najbolji klubovi u HNL-u<h3>
 <ol>
   <li>Dinamo</li><br>
@@ -86,19 +124,19 @@ Od osnutka 17. ožujka 1986. godine, na utakmici s Hajdukom u Splitu, bodre Dina
 </ol>
 <h3>Najbolji igraci u HNL-u<h3>
 <ol>
-  <li>Petkovic</li><br>
   <li>Livakovic</li><br>
+  <li>Petkovic</li><br>
   <li>Oršić</li><br>
 </ol>
 
-<table style="width:100%" border="1">
+<table class="styled-table" >
   <tr>
     <th>Ime</th>
-    <th>Prezime</th> 
+    <th>Prezime</th>
     <th>Placa</th>
 	<th>Klub</th>
 	<th>Nacionalnost</th>
-	
+
   </tr>
   <tr>
     <td>Dominik</td>
@@ -136,9 +174,8 @@ Od osnutka 17. ožujka 1986. godine, na utakmici s Hajdukom u Splitu, bodre Dina
 	<td>Španjolac</td>
   </tr>
 </table>
-	
-<a href="ime3.html">Kliknite ovdje za više o Zoranu Mamiću</a>
-<p> Ako imate problema sa cijenama karata klinkite <a href="CurrencyConverter.html">Ovdje.</a> za pretvaranje valuta</p>
-<a href="ime4.html">Kliknite ovdje za više o Maksimir Stadionu</a>	
+
+
 </body>
 </html>
+
